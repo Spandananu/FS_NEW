@@ -48,3 +48,11 @@
 {"id":48,"first_name":"Karilynn","last_name":"Wadley","email":"kwadley1b@imgur.com","gender":"Female","ip_address":"199.55.37.157"},
 {"id":49,"first_name":"Maje","last_name":"Sawden","email":"msawden1c@wix.com","gender":"Male","ip_address":"107.179.127.33"},
 {"id":50,"first_name":"Gualterio","last_name":"Vowels","email":"gvowels1d@alibaba.com","gender":"Male","ip_address":"110.22.217.97"}]
+
+for (let i=0;i<=URLSearchParams.length - 1; i++){
+    console.log(user[i].name)
+}
+
+/* for (user of users){
+    console.log(user.loc)
+} */
